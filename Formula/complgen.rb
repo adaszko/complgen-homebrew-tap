@@ -9,7 +9,7 @@ class Complgen < Formula
   depends_on "bash-completion"
 
   def install
-    system "cargo", "install", "--root", prefix, "--path", "."
+    system "cargo", "install", "--no-track", "--root", prefix, "--path", "."
   end
 
   test do
