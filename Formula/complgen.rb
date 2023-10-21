@@ -1,9 +1,9 @@
 class Complgen < Formula
-  version "0.1.5"
+  version "0.1.6"
   desc "complgen"
   homepage "https://github.com/adaszko/complgen"
   url "https://github.com/adaszko/complgen/archive/v#{version}.tar.gz"
-  sha256 "bc26815e6d118fce8f5aae42cb1ac000a0aedf3c11c5f57964c23d796637f75e"
+  sha256 "c8dda7849aca440a8383ee349738e3f9e3513099dda6a56a31828bf313019a8a"
 
   depends_on "rust" => :build
   depends_on "bash-completion"
